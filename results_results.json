@@ -1,0 +1,32 @@
+{
+  "fp16": {
+    "avg_latency": 5.563100179036459e-7,
+    "avg_throughput": 49457834.666666664,
+    "memory_usage": {
+      "model_memory_gb": 14,
+      "quantization_type": "fp16",
+      "memory_savings": "0.0% vs FP16"
+    },
+    "quantization_type": "fp16"
+  },
+  "int8": {
+    "avg_latency": 3.178914388020833e-7,
+    "avg_throughput": 76895573.33333333,
+    "memory_usage": {
+      "model_memory_gb": 7.5,
+      "quantization_type": "int8",
+      "memory_savings": "46.4% vs FP16"
+    },
+    "quantization_type": "int8"
+  },
+  "int4": {
+    "avg_latency": 2.7815500895182293e-7,
+    "avg_throughput": 75147946.66666667,
+    "memory_usage": {
+      "model_memory_gb": 4.2,
+      "quantization_type": "int4",
+      "memory_savings": "70.0% vs FP16"
+    },
+    "quantization_type": "int4"
+  }
+}
